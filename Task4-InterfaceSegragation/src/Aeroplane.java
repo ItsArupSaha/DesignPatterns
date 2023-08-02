@@ -1,4 +1,4 @@
-public class Aeroplane implements Vehicle, Movable, Flyable{
+public class Aeroplane implements IVehicle, IMovable, IFlyable {
 
     private double price;
     @Override

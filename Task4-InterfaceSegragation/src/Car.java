@@ -1,4 +1,4 @@
-public class Car implements Vehicle, Movable{
+public class Car implements IVehicle, IMovable {
 
     private double price;
     @Override
